@@ -142,7 +142,6 @@ feed:
   autodiscovery: true
   template:
 # 链接简化
-# abbrlink config
 abbrlink:
   alg: crc32      #支持crc16（默认）和crc32
   rep: hex        #支持dec（默认）和 hex
