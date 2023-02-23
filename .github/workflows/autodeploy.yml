@@ -1,0 +1,46 @@
+name: 自动部署
+on:
+  push:
+    branches:
+      - master # 只在master上push触发部署
+    paths-ignore: # 下列文件的变更不触发部署，可以自行添加
+      - README.md
+      - LICENSE
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: 安装 Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+
+      - name: 安装 Hexo
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+          npm install hexo-renderer-pug hexo-renderer-stylus --save
+      - name: 安装依赖
+        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+        run: |
+          npm install --save
+
+      - name: 生成静态文件
+        run: |
+          hexo clean
+          hexo generate
+
+      - name: 部署到Github
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository-name: p5sf
+          branch: main
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"

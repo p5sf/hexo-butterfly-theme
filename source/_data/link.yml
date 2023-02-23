@@ -1,0 +1,80 @@
+- class_name: '<i class="fas fa-check-double" style="color: #FF6666;padding-right: 0.4rem"></i>網站<div class="addBtn"><button onclick="toRandomFlink()"><i class="fas fa-shuffle"></i>随机打开一个链接</button></div>'
+  class_desc: '<span style="font-style: italic;">小窝的装修参考了以下博客</span>'
+  link_list:
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 是一名 设计师、产品经理、独立开发者、博主
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://image.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+
+- class_name: '<i class="fas fa-fan" style="color:#00cccc;padding-right: 0.4rem"></i>我的好朋友们'
+  class_desc: '<span style="font-style: italic;">最可愛的朋友在這裏</span>'
+  link_list:
+    - name: 轻笑Chuckle
+      link: https://www.chuckle.top/
+      avatar: https://www.chuckle.top/img/head.webp
+      descr: 宁静致远，倾城轻笑
+    - name: ichikaの小窝
+      link: https://ichika.cc/
+      avatar: https://ichika.cc/img/Page/HeadIcon.jpg
+      descr: Hello,gamer!
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      descr: 进一寸有进一寸的欢喜。
+    - name: Sianx's Blog
+      link: https://sianx.com
+      avatar: https://cdn.bilicdn.tk/npm/picture-sianx@1.0.0/Blog/logo.png
+      descr: 总之岁月漫长, 然而值得等待。
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+    - name:  小城故事
+      link: https://www.webxc.ml
+      avatar: https://npm.elemecdn.com/webxc/logo/logo.jpg
+      descr: 欢迎光临小城故事
+    - name: 呆鱼
+      link: https://daiyu-233.top/
+      avatar: https://daiyu-233.top/img/avatar.png
+      descr: 命运之所以称为命运，正是因为它无可改变。
+    - name: Ethan.Tzy
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+    - name: 青衣
+      link: https://www.qingyi1220.cn/
+      avatar: https://www.qingyi1220.cn/img/Tsingyi.jpg
+      descr: 世界既不黑也不白，而是一道精致的灰
+    - name: 子辰辰
+      link: https://www.xiaozhuzi.xyz/
+      avatar: https://ghost.xiaozhuzi.xyz/cc3/99.jpg
+      descr: 一个渗透测试在学的小菜鸡
+    - name: 小华同学927のBlog
+      link: https://blog.xiaohua927.top/
+      avatar: https://i.imgtg.com/2022/12/01/DM501.jpg
+      descr: 行而不辍，未来可期！
+    - name: 无影博客
+      link: https://wyblog1.eu.org
+      avatar: https://gcore.jsdelivr.net/gh/612901/661111@main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-12-21%20102358.png
+      descr: 无影博客
+    - name: Echocbx
+      link: https://ezgx.tk/
+      avatar: https://wlopck.gitee.io/img/avatar.png
+      descr: 分享科技与狠活~
+    - name: wsbのblog
+      link: https://wsbblog.cn
+      avatar: https://wsbblog.cn/img/wsb.webp
+      descr: 己所不欲，勿施于人
+    - name: LyShark - 孤风洗剑
+      link: https://www.lyshark.com
+      avatar: https://www.lyshark.com/images/baidu_logo.png
+      descr: 道，可道，非常道；名，可名，非常名。—— 老子《道德经》
