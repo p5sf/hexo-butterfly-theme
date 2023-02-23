@@ -40,7 +40,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: p5sf
+          repository-name: p5sf/blog-p5sf
           branch: main
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
